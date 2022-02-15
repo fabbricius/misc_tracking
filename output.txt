@@ -1,0 +1,580 @@
+ACCORDN: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=5,2,15,11, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,15,11, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=4, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+BAGPIPE1: [ FM ], Modulation Feedback factor=1(PI/16)
+Car(Op2):ADSR=8,11,15,12, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=2, Key Scale lvl=0(-), Output lvl=5, Waveform=2(Abs-Sine)
+Mod(Op1):ADSR=6,14,14,7, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=3, Waveform=1(Half-Sine)
+
+BAGPIPE2: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=6,5,15,11, Tremolo=y, Vibrato=n, Sustain=y, KSR=n, Freq multip=3, Key Scale lvl=0(-), Output lvl=0, Waveform=2(Abs-Sine)
+Mod(Op1):ADSR=15,15,5,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=3(Pulse-Sine)
+
+BANJO1: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=7,13,11,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=6, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=10,1,14,1, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=7, Waveform=0(Sine)
+
+BASS1: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=6,5,9,12, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=2,5,13,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=21, Waveform=0(Sine)
+
+BASS2: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,5,8,8, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,1,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=29, Waveform=0(Sine)
+
+BASSHARP: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,2,8,3, Tremolo=n, Vibrato=y, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,9,15,1, Tremolo=y, Vibrato=y, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=1(1.5 dB/oct), Output lvl=45, Waveform=1(Half-Sine)
+
+BASSOON1: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=6,1,14,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=13,5,14,9, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=3(6.0 dB/oct), Output lvl=8, Waveform=0(Sine)
+
+BASSTRLG: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=1,2,8,4, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=3(Pulse-Sine)
+Mod(Op1):ADSR=11,1,10,3, Tremolo=y, Vibrato=y, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=3(Pulse-Sine)
+
+BDRUM1 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=10,8,11,12, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=11, Waveform=0(Sine)
+
+BELLONG: [ FM ], Modulation Feedback factor=2(PI/8)
+Car(Op2):ADSR=15,3,9,2, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=14, Key Scale lvl=3(6.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,15,15,1, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=4, Key Scale lvl=3(6.0 dB/oct), Output lvl=27, Waveform=0(Sine)
+
+BELLS: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,2,8,2, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=2, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,9,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+BELSHORT: [ FM ], Modulation Feedback factor=2(PI/8)
+Car(Op2):ADSR=15,5,0,3, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=14, Key Scale lvl=3(6.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,15,15,1, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=4, Key Scale lvl=3(6.0 dB/oct), Output lvl=27, Waveform=0(Sine)
+
+BNCEBASS: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,5,8,2, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=7,11,15,4, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=1(1.5 dB/oct), Output lvl=11, Waveform=1(Half-Sine)
+
+BRASS1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=8,1,6,14, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=7,1,5,14, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=22, Waveform=0(Sine)
+
+CBASSOON: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=3,1,13,14, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=5,2,14,1, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=3(6.0 dB/oct), Output lvl=5, Waveform=0(Sine)
+
+CELESTA: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=7,13,12,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=4, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=0,1,14,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=3, Key Scale lvl=2(3.0 dB/oct), Output lvl=7, Waveform=0(Sine)
+
+CLAR1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=7,5,10,7, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=7,3,13,4, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=2, Key Scale lvl=0(-), Output lvl=22, Waveform=0(Sine)
+
+CLAR2: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=4,2,12,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=4,1,14,11, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=28, Waveform=0(Sine)
+
+CLARINET: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=10,2,12,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=2, Waveform=0(Sine)
+Mod(Op1):ADSR=5,1,14,11, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=2, Key Scale lvl=2(3.0 dB/oct), Output lvl=26, Waveform=0(Sine)
+
+CLAVECIN: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,2,4,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=5, Key Scale lvl=0(-), Output lvl=13, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,15,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=13, Waveform=0(Sine)
+
+CROMORNE: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,0,0,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,0,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=2, Waveform=0(Sine)
+
+CYMBAL1 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,4,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+ELCLAV1: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,4,8,11, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,8,11, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=5, Key Scale lvl=2(3.0 dB/oct), Output lvl=10, Waveform=0(Sine)
+
+ELCLAV2: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,1,8,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=2(Abs-Sine)
+Mod(Op1):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=9, Waveform=1(Half-Sine)
+
+ELECFL: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=6,7,8,13, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=5,7,15,4, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=1(1.5 dB/oct), Output lvl=45, Waveform=1(Half-Sine)
+
+ELECVIBE: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=9,11,14,1, Tremolo=y, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=9,10,14,2, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=3, Key Scale lvl=2(3.0 dB/oct), Output lvl=23, Waveform=2(Abs-Sine)
+
+ELGUIT1: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,1,14,8, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=13, Waveform=0(Sine)
+Mod(Op1):ADSR=9,7,14,7, Tremolo=y, Vibrato=y, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=1, Waveform=0(Sine)
+
+ELGUIT2: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,15,15,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,15,13,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=3, Key Scale lvl=2(3.0 dB/oct), Output lvl=22, Waveform=0(Sine)
+
+ELGUIT3: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=8,2,8,13, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=4, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=8,2,8,13, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=2(3.0 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+ELGUIT4: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,9,14,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=2(Abs-Sine)
+Mod(Op1):ADSR=13,10,14,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=5, Key Scale lvl=2(3.0 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+ELORGAN1: [ Add ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=9,1,13,10, Tremolo=y, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=9,1,13,10, Tremolo=y, Vibrato=n, Sustain=y, KSR=y, Freq multip=2, Key Scale lvl=3(6.0 dB/oct), Output lvl=13, Waveform=2(Abs-Sine)
+
+ELPIANO1: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=13,2,8,12, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=4, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,10,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+ELPIANO2: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,5,11,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=2, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,14,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=2, Key Scale lvl=0(-), Output lvl=34, Waveform=0(Sine)
+
+EPIANO1A: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,2,10,8, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,3,10,8, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=35, Waveform=0(Sine)
+
+EPIANO1B: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,5,0,10, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=23, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,0,10, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=0(-), Output lvl=31, Waveform=0(Sine)
+
+FLUTE: [ Add ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=6,5,14,7, Tremolo=y, Vibrato=n, Sustain=y, KSR=n, Freq multip=2, Key Scale lvl=2(3.0 dB/oct), Output lvl=13, Waveform=0(Sine)
+Mod(Op1):ADSR=7,4,14,7, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=3, Waveform=0(Sine)
+
+FLUTE1: [ FM ], Modulation Feedback factor=1(PI/16)
+Car(Op2):ADSR=6,5,13,10, Tremolo=y, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=7,4,7,15, Tremolo=y, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=39, Waveform=0(Sine)
+
+FLUTE2: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=6,5,13,10, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=6,14,7,15, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=3(6.0 dB/oct), Output lvl=44, Waveform=0(Sine)
+
+FRHORN1: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=10,10,14,10, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=5,3,10,10, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=31, Waveform=0(Sine)
+
+FRHORN2: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=3,6,12,13, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=10,5,7,15, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=2(3.0 dB/oct), Output lvl=14, Waveform=2(Abs-Sine)
+
+FSTRP1: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=8,7,14,14, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=3(Pulse-Sine)
+Mod(Op1):ADSR=5,5,1,15, Tremolo=y, Vibrato=y, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=0(-), Output lvl=24, Waveform=2(Abs-Sine)
+
+FSTRP2: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=8,7,14,14, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=3(Pulse-Sine)
+Mod(Op1):ADSR=5,5,13,15, Tremolo=n, Vibrato=y, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=0(-), Output lvl=22, Waveform=2(Abs-Sine)
+
+FUZGUIT1: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,1,14,8, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=5, Key Scale lvl=0(-), Output lvl=13, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=9,7,14,3, Tremolo=y, Vibrato=y, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+FUZGUIT2: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,2,13,7, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=2, Key Scale lvl=0(-), Output lvl=0, Waveform=2(Abs-Sine)
+Mod(Op1):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=8, Waveform=0(Sine)
+
+GUITAR1: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,5,7,8, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,14,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=17, Waveform=0(Sine)
+
+HARP1: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,2,0,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,8,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=2, Key Scale lvl=0(-), Output lvl=41, Waveform=0(Sine)
+
+HARP2: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,6,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,10,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=2, Key Scale lvl=2(3.0 dB/oct), Output lvl=25, Waveform=0(Sine)
+
+HARP3: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,6,10,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,10,6, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=2, Key Scale lvl=1(1.5 dB/oct), Output lvl=23, Waveform=0(Sine)
+
+HARPE1: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,2,0,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,8,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=2, Key Scale lvl=0(-), Output lvl=41, Waveform=0(Sine)
+
+HARPSI1: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=7,13,12,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=6, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=10,1,14,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=2, Key Scale lvl=2(3.0 dB/oct), Output lvl=7, Waveform=0(Sine)
+
+HARPSI2: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=7,13,11,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=5, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=10,1,14,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=3, Key Scale lvl=2(3.0 dB/oct), Output lvl=7, Waveform=0(Sine)
+
+HARPSI3: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=7,13,12,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=8, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=10,8,14,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=5, Key Scale lvl=2(3.0 dB/oct), Output lvl=4, Waveform=0(Sine)
+
+HARPSI4: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,2,4,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=5, Key Scale lvl=0(-), Output lvl=13, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,15,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=13, Waveform=0(Sine)
+
+HARPSI5: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=7,15,12,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=10, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=8,10,15,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=6, Key Scale lvl=2(3.0 dB/oct), Output lvl=7, Waveform=0(Sine)
+
+HELICPTR: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=1,1,14,1, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=2, Key Scale lvl=3(6.0 dB/oct), Output lvl=0, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=1,14,14,1, Tremolo=y, Vibrato=y, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=1(Half-Sine)
+
+HIHAT1 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,7,4,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+HIHAT2 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=13,10,14,8, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+
+JAVAICAN: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=8,5,10,4, Tremolo=y, Vibrato=n, Sustain=n, KSR=y, Freq multip=4, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=7,8,11,2, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=1(1.5 dB/oct), Output lvl=13, Waveform=0(Sine)
+
+JAZZGUIT: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=13,2,8,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=8,5,10,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=3, Key Scale lvl=1(1.5 dB/oct), Output lvl=30, Waveform=1(Half-Sine)
+
+JEWSHARP: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,2,8,2, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=3, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,8,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=1(1.5 dB/oct), Output lvl=16, Waveform=0(Sine)
+
+KEYBRD1: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,2,0,10, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=15,0,0,10, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=2, Waveform=1(Half-Sine)
+
+KEYBRD2: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=8,2,4,13, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=4, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,4,13, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+KEYBRD3: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,3,12,6, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=4, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+LASER (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=2,5,4,5, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=6, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+LOGDRUM1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,5,8,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,8,0,15, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=2, Key Scale lvl=1(1.5 dB/oct), Output lvl=4, Waveform=0(Sine)
+
+MARIMBA1: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,9,14,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=13,10,13,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=5, Key Scale lvl=1(1.5 dB/oct), Output lvl=14, Waveform=0(Sine)
+
+MARIMBA2: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,9,14,3, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=13,10,14,5, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=5, Key Scale lvl=1(1.5 dB/oct), Output lvl=14, Waveform=0(Sine)
+
+MDRNPHON: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,1,14,9, Tremolo=y, Vibrato=n, Sustain=y, KSR=n, Freq multip=14, Key Scale lvl=3(6.0 dB/oct), Output lvl=0, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=15,14,14,1, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=1(Half-Sine)
+
+MLTRDRUM (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=12,8,4,6, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=12, Key Scale lvl=0(-), Output lvl=0, Waveform=1(Half-Sine)
+
+MOOGSYNT: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=15,4,10,11, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=3(Pulse-Sine)
+Mod(Op1):ADSR=15,5,6,14, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=2(3.0 dB/oct), Output lvl=16, Waveform=2(Abs-Sine)
+
+NOISE1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,2,8,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=14, Key Scale lvl=0(-), Output lvl=0, Waveform=3(Pulse-Sine)
+Mod(Op1):ADSR=13,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=14, Key Scale lvl=1(1.5 dB/oct), Output lvl=0, Waveform=0(Sine)
+
+OBOE1: [ FM ], Modulation Feedback factor=1(PI/16)
+Car(Op2):ADSR=8,11,15,14, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=2, Key Scale lvl=0(-), Output lvl=5, Waveform=0(Sine)
+Mod(Op1):ADSR=6,14,14,7, Tremolo=y, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=3(6.0 dB/oct), Output lvl=5, Waveform=0(Sine)
+
+ORGAN1: [ FM ], Modulation Feedback factor=1(PI/16)
+Car(Op2):ADSR=15,1,15,5, Tremolo=n, Vibrato=y, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=8,1,15,3, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=5, Key Scale lvl=3(6.0 dB/oct), Output lvl=18, Waveform=0(Sine)
+
+ORGAN2: [ Add ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,15,15,15, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,15,15,15, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=4, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+
+ORGAN3: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,0,14,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,14,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=3, Key Scale lvl=1(1.5 dB/oct), Output lvl=27, Waveform=0(Sine)
+
+ORGAN3A: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,0,14,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=13, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,14,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=3, Key Scale lvl=1(1.5 dB/oct), Output lvl=27, Waveform=0(Sine)
+
+ORGAN3B: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,0,14,2, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=18, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,14,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=3, Key Scale lvl=1(1.5 dB/oct), Output lvl=27, Waveform=0(Sine)
+
+ORGNPERC: [ Add ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=13,6,11,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,8,4,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=12, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+PHONE1: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,1,4,2, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=2, Key Scale lvl=0(-), Output lvl=8, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,9,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=7, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+PHONE2: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,1,4,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=2, Key Scale lvl=0(-), Output lvl=10, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,9,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=7, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+PIAN1A: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,2,10,8, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,3,10,8, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=35, Waveform=0(Sine)
+
+PIAN1B: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,5,0,10, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=38, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,0,10, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=0(-), Output lvl=31, Waveform=0(Sine)
+
+PIAN1C: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,5,0,10, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=23, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,0,10, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=0(-), Output lvl=31, Waveform=0(Sine)
+
+PIANO: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,2,8,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=7, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=3, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+PIANO1: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=13,2,8,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+PIANO2: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,2,0,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=3, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,10,1, Tremolo=n, Vibrato=y, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=29, Waveform=0(Sine)
+
+PIANO3: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=13,2,8,12, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=4, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,10,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+PIANO4: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=13,2,8,11, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,9,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=13, Waveform=0(Sine)
+
+PIANOBEL: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,2,8,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=7, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=3, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+PIANOF: [ FM ], Modulation Feedback factor=1(PI/16)
+Car(Op2):ADSR=15,2,7,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=2, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=3(6.0 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+POPBASS1: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,5,7,2, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=7,5,6,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=1(Half-Sine)
+
+RKSNARE1 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=12,7,4,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=12, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+SAX1: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=5,2,8,12, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=2, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=7,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+SCRATCH: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=5,12,2,12, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+SCRATCH4: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=5,12,2,12, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+SDRUM2: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,6,4,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=6, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+SHRTVIBE: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,3,15,7, Tremolo=y, Vibrato=y, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,15,12,15, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=4, Key Scale lvl=0(-), Output lvl=14, Waveform=1(Half-Sine)
+
+SITAR1: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=8, Key Scale lvl=1(1.5 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=0, Waveform=0(Sine)
+
+SITAR2: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=8, Key Scale lvl=1(1.5 dB/oct), Output lvl=0, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=15,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=0, Waveform=0(Sine)
+
+SNAKEFL: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=6,1,15,12, Tremolo=n, Vibrato=y, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=8,1,15,3, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=12, Waveform=0(Sine)
+
+SNARE1 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,8,4,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=12, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+SNRSUST: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=12,4,12,4, Tremolo=y, Vibrato=y, Sustain=n, KSR=n, Freq multip=4, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=6, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+SOLOVLN: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=5,4,9,7, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=2(Abs-Sine)
+Mod(Op1):ADSR=5,1,15,3, Tremolo=n, Vibrato=y, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=0(-), Output lvl=28, Waveform=2(Abs-Sine)
+
+STEELGT1: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=3,1,7,6, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,7,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=6, Waveform=0(Sine)
+
+STEELGT2: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=9,1,7,6, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,7,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=7, Waveform=0(Sine)
+
+STRINGS1: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=4,2,14,5, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=0, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=7,1,14,1, Tremolo=y, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=11, Waveform=0(Sine)
+
+STRNLONG: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=1,2,8,4, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=1(Half-Sine)
+Mod(Op1):ADSR=11,1,2,3, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=3(Pulse-Sine)
+
+SYN1: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=4,2,0,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=2, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=2,10,15,2, Tremolo=n, Vibrato=y, Sustain=n, KSR=y, Freq multip=5, Key Scale lvl=2(3.0 dB/oct), Output lvl=23, Waveform=0(Sine)
+
+SYN2: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=9,11,14,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=9,10,14,2, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=3, Key Scale lvl=2(3.0 dB/oct), Output lvl=23, Waveform=0(Sine)
+
+SYN3: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,1,4,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,14,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=10, Waveform=0(Sine)
+
+SYN4: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=6,5,9,12, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=2, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=14,9,12,10, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=13, Waveform=0(Sine)
+
+SYN5: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=5,2,8,12, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=9, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=7,1,10,3, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+SYN6: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=15,1,10,14, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=4,1,8,14, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=4, Key Scale lvl=0(-), Output lvl=15, Waveform=0(Sine)
+
+SYN9: [ FM ], Modulation Feedback factor=2(PI/8)
+Car(Op2):ADSR=15,0,15,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,15,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=7, Key Scale lvl=2(3.0 dB/oct), Output lvl=7, Waveform=0(Sine)
+
+SYNBAL1: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,15,12,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=14, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=14,0,0,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=6, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+
+SYNBAL2: [ FM ], Modulation Feedback factor=2(PI/8)
+Car(Op2):ADSR=14,8,14,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=3, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=14,0,0,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=8, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+
+SYNBASS1: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=6,1,14,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=13,5,14,9, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=0, Key Scale lvl=2(3.0 dB/oct), Output lvl=8, Waveform=0(Sine)
+
+SYNBASS2: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=3,2,8,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=6,5,15,1, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=6, Waveform=0(Sine)
+
+SYNBASS4: [ FM ], Modulation Feedback factor=5(PI)
+Car(Op2):ADSR=3,2,8,4, Tremolo=n, Vibrato=y, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=6,5,15,5, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=3, Waveform=0(Sine)
+
+SYNSNR1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,8,4,6, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=6, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+SYNSNR2: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,6,4,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,0,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=6, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+TINCAN1: [ FM ], Modulation Feedback factor=2(PI/8)
+Car(Op2):ADSR=9,8,0,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=14,15,15,1, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=15, Key Scale lvl=2(3.0 dB/oct), Output lvl=1, Waveform=0(Sine)
+
+TOM1 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,7,4,5, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=4, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+TOM2 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=12,8,6,7, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=2, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+TRAINBEL: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,2,8,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=2, Key Scale lvl=0(-), Output lvl=8, Waveform=0(Sine)
+Mod(Op1):ADSR=15,2,9,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=7, Key Scale lvl=1(1.5 dB/oct), Output lvl=15, Waveform=0(Sine)
+
+TRIANGLE: [ FM ], Modulation Feedback factor=4(PI/2)
+Car(Op2):ADSR=15,15,12,1, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=14, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=14,0,0,0, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=6, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+
+TROMB1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=9,2,12,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=4,1,14,15, Tremolo=y, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=28, Waveform=0(Sine)
+
+TROMB2: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=5,2,12,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=5,3,14,13, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=28, Waveform=0(Sine)
+
+TRUMPET1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=9,2,12,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=4,1,15,11, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=28, Waveform=0(Sine)
+
+TRUMPET2: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=5,2,12,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=2,3,14,13, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=28, Waveform=0(Sine)
+
+TRUMPET3: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=9,2,12,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=4,1,15,1, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=28, Waveform=0(Sine)
+
+TRUMPET4: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=9,2,12,11, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=4,1,15,11, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=28, Waveform=0(Sine)
+
+TUBA1: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=8,5,13,15, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=4,3,7,12, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=25, Waveform=0(Sine)
+
+VIBRA1: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=15,13,13,5, Tremolo=y, Vibrato=n, Sustain=y, KSR=n, Freq multip=0, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,5,12,3, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=4, Key Scale lvl=1(1.5 dB/oct), Output lvl=19, Waveform=0(Sine)
+
+VIBRA2: [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=15,2,4,3, Tremolo=y, Vibrato=n, Sustain=n, KSR=n, Freq multip=1, Key Scale lvl=0(-), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=15,6,10,4, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=6, Key Scale lvl=1(1.5 dB/oct), Output lvl=51, Waveform=0(Sine)
+
+VIBRA3: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=10,12,13,1, Tremolo=y, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=10,10,14,2, Tremolo=y, Vibrato=n, Sustain=n, KSR=y, Freq multip=3, Key Scale lvl=2(3.0 dB/oct), Output lvl=23, Waveform=2(Abs-Sine)
+
+VIOLIN1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=5,4,9,7, Tremolo=n, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=5,1,15,3, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=28, Waveform=0(Sine)
+
+VIOLIN2: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=5,3,13,12, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=2, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=6,2,13,9, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=8, Waveform=0(Sine)
+
+VIOLIN3: [ FM ], Modulation Feedback factor=3(PI/4)
+Car(Op2):ADSR=5,3,13,12, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=2, Key Scale lvl=2(3.0 dB/oct), Output lvl=3, Waveform=0(Sine)
+Mod(Op1):ADSR=6,4,13,9, Tremolo=y, Vibrato=y, Sustain=y, KSR=n, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=8, Waveform=0(Sine)
+
+VLNPIZZ1: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,7,1,6, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,1,0,9, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=2(3.0 dB/oct), Output lvl=28, Waveform=0(Sine)
+
+WAVE: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=1,11,5,2, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=4, Key Scale lvl=2(3.0 dB/oct), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=0,0,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=2, Waveform=0(Sine)
+
+XYLO1: [ FM ], Modulation Feedback factor=6(2*PI)
+Car(Op2):ADSR=15,5,0,5, Tremolo=n, Vibrato=n, Sustain=y, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=12,8,13,15, Tremolo=n, Vibrato=n, Sustain=n, KSR=y, Freq multip=1, Key Scale lvl=0(-), Output lvl=45, Waveform=0(Sine)
+
+XYLO2 (Drum): [ FM ], Modulation Feedback factor=0(0)
+Car(Op2):ADSR=0,0,15,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=0, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,15,15,15, Tremolo=n, Vibrato=n, Sustain=y, KSR=n, Freq multip=14, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+
+XYLO3: [ FM ], Modulation Feedback factor=7(4*PI)
+Car(Op2):ADSR=15,8,4,5, Tremolo=y, Vibrato=y, Sustain=n, KSR=n, Freq multip=4, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+Mod(Op1):ADSR=15,15,0,0, Tremolo=n, Vibrato=n, Sustain=n, KSR=n, Freq multip=6, Key Scale lvl=0(-), Output lvl=0, Waveform=0(Sine)
+

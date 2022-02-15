@@ -5,6 +5,10 @@ SchismTracker, but OpenMPT will do.
 The "C-style" comment is taken from 
 https://github.com/DhrBaksteen/ArduinoOPL2/blob/master/src/instruments.h
 The OPL data was transformed to a python dictionnary using emacs.
+Interesting documentations:
+https://moddingwiki.shikadi.net/wiki/OPL_chip
+https://saxxonpike.github.io/TechDocs/oplref.html
+
 ----
 
 /**
@@ -232,9 +236,37 @@ def is_a_drum(inst):
 def get_mod_feedback_factor(inst):
     return (instDef[inst][REG0XC0_OFFSET] & OPX_MOD_FEEDBACK_FACTOR_MASK) >> 1
 
+def get_mod_feedback_factor_ascii(f):
+    if (f > 7):
+        # OPL3 not supported
+        return "ERROR: INVALID FEEDBACK FACTOR!"
+    else:
+        if (f == 0):
+            return "0"
+        elif (f == 1):
+            return "PI/16"
+        elif (f == 2):
+            return "PI/8"
+        elif (f == 3):
+            return "PI/4"
+        elif (f == 4):
+            return "PI/2"
+        elif (f == 5):
+            return "PI"
+        elif (f == 6):
+            return "2*PI"
+        elif (f == 7):
+            return "4*PI"
+
 def get_synth_type(inst):
     return (instDef[inst][REG0XC0_OFFSET] & OPX_SYNTH_TYPE_MASK)
 
+def get_synth_type_ascii(inst):
+    if (instDef[inst][REG0XC0_OFFSET] & OPX_SYNTH_TYPE_MASK):
+        # Flag for Additive synth is set to 1
+        return "Add"
+    else:
+        return "FM"
 
 def get_attack_for_given_op(op, name):
     if (op != 1 and op != 2):
@@ -270,7 +302,8 @@ def get_sustain_for_given_op(op, name):
             offset = OP1_REG0X80_OFFSET
         else:
             offset = OP2_REG0X80_OFFSET
-        return (instDef[name][offset] & OPX_SUSTAIN_MASK) >> 4
+        #return (instDef[name][offset] & OPX_SUSTAIN_MASK) >> 4
+        return 15 - ((instDef[name][offset] & OPX_SUSTAIN_MASK) >> 4)
 
 def get_release_for_given_op(op, name):
     if (op != 1 and op != 2):
@@ -356,6 +389,20 @@ def get_key_scale_level(op, name):
             offset = OP2_REG0X40_OFFSET
         return (instDef[name][offset] & OPX_KEY_SCALE_LEVEL_MASK) >> 6
 
+def get_key_scale_level_ascii(l):
+    if (l > 3):
+        return "ERROR: INVALID KEY SCALE LEVEL!"
+    else:
+        if (l == 0):
+            return "-"
+        elif (l == 1):
+            return "1.5 dB/oct"
+        elif (l == 2):
+            return "3.0 dB/oct"
+        elif (l == 3):
+            return "6.0 dB/oct"
+
+
 def get_output_level(op, name):
     if (op != 1 and op != 2):
         # non-exitent operator
@@ -380,6 +427,20 @@ def get_waveform(op, name):
             offset = OP2_REG0XE0_OFFSET
         return (instDef[name][offset] & OPX_WAVEFORM_MASK)
 
+def get_waveform_name_from_number(form):
+    if (form > 3):
+        # OPL3 not supported
+        return "ERROR: INVALID WAVEFORM!"
+    else:
+        if (form == 0):
+            return "Sine"
+        elif (form == 1):
+            return "Half-Sine"
+        elif (form == 2):
+            return "Abs-Sine"
+        elif (form == 3):
+            return "Pulse-Sine"
+        
 
 def return_y_or_n(b):
     if (b == RET_INVALID):
@@ -395,29 +456,19 @@ for key in instDef:
     res = ""
     res += key
     # Common part (Rythm mode Drum channel (offset0) and register 0xC0 (offset 6))
-    res += ": Drum=" + return_y_or_n(is_a_drum(key))
-    res += ", Modulation Feedback factor=" + str(get_mod_feedback_factor(key))
-    res += ", Synth Type=" + str(get_synth_type(key))
-    
+    #res += ": "
+    #res += ": Drum=" + return_y_or_n(is_a_drum(key))
+    if (is_a_drum(key)):
+        res += " (Drum)"
+    #res += ", Synth Type=" + str(get_synth_type(key))
+    #res += ", Synth Type=" + get_synth_type_ascii(key)    
+    res += ": [ " + get_synth_type_ascii(key) + " ]"
+    #res += ", Modulation Feedback factor=" + str(get_mod_feedback_factor(key))
+    res += ", Modulation Feedback factor=" + str(get_mod_feedback_factor(key)) + "(" + get_mod_feedback_factor_ascii(get_mod_feedback_factor(key)) + ")"
+    #get_mod_feedback_factor_ascii
     res += "\n"
-    res += "OP1:ADSR="
-    res += str(get_attack_for_given_op(1, key)) + ','
-    res += str(get_decay_for_given_op(1, key)) + ','
-    res += str(get_sustain_for_given_op(1, key)) + ','
-    res += str(get_release_for_given_op(1, key))
-    res += ", Tremolo=" + return_y_or_n(get_tremolo_for_given_op(1, key))
-    res += ", Vibrato=" + return_y_or_n(get_vibrato_for_given_op(1, key))
-    res += ", Sustain=" + return_y_or_n(get_sustain_flag_for_given_op(1, key))
-    res += ", KSR=" + return_y_or_n(get_ksr_for_given_op(1, key))
-    res += ", Freq multip=" + str(get_frequency_multiplexer_for_given_op(1, key))
-    # Now values from register 0x40
-    res += ", Key Scale lvl=" + str(get_key_scale_level(1,key))
-    res += ", Output lvl=" + str(get_output_level(1,key))
-    # Now values from register 0xE0
-    res += ", Waveform=" + str(get_waveform(1,key))
-    
-    res += "\n"
-    res += "OP2:ADSR="
+
+    res += "Car(Op2):ADSR="
     res += str(get_attack_for_given_op(2, key)) + ','
     res += str(get_decay_for_given_op(2, key)) + ','
     res += str(get_sustain_for_given_op(2, key)) + ','
@@ -428,7 +479,31 @@ for key in instDef:
     res += ", KSR=" + return_y_or_n(get_ksr_for_given_op(2, key))
     res += ", Freq multip=" + str(get_frequency_multiplexer_for_given_op(2, key))
     # Now values from register 0x40
-    res += ", Key Scale lvl=" + str(get_key_scale_level(2,key))
+    #res += ", Key Scale lvl=" + str(get_key_scale_level(2,key))
+    res += ", Key Scale lvl=" + str(get_key_scale_level(2,key)) + "(" + get_key_scale_level_ascii(get_key_scale_level(2,key))  + ")"
     res += ", Output lvl=" + str(get_output_level(2,key))
-    res += ", Waveform=" + str(get_waveform(2,key))
+    #res += ", Waveform=" + str(get_waveform(2,key))
+    res += ", Waveform=" + str(get_waveform(2,key)) + "(" + get_waveform_name_from_number((get_waveform(2,key))) + ")"
+
+    res += "\n"
+
+    res += "Mod(Op1):ADSR="
+    res += str(get_attack_for_given_op(1, key)) + ','
+    res += str(get_decay_for_given_op(1, key)) + ','
+    res += str(get_sustain_for_given_op(1, key)) + ','
+    res += str(get_release_for_given_op(1, key))
+    res += ", Tremolo=" + return_y_or_n(get_tremolo_for_given_op(1, key))
+    res += ", Vibrato=" + return_y_or_n(get_vibrato_for_given_op(1, key))
+    res += ", Sustain=" + return_y_or_n(get_sustain_flag_for_given_op(1, key))
+    res += ", KSR=" + return_y_or_n(get_ksr_for_given_op(1, key))
+    res += ", Freq multip=" + str(get_frequency_multiplexer_for_given_op(1, key))
+    # Now values from register 0x40
+    res += ", Key Scale lvl=" + str(get_key_scale_level(1,key)) + "(" + get_key_scale_level_ascii(get_key_scale_level(1,key))  + ")"
+    res += ", Output lvl=" + str(get_output_level(1,key))
+    # Now values from register 0xE0
+    #res += ", Waveform=" + str(get_waveform(1,key))
+    #res += ", Waveform=" + get_waveform_name_from_number((get_waveform(1,key)))
+    res += ", Waveform=" + str(get_waveform(1,key)) + "(" + get_waveform_name_from_number((get_waveform(1,key))) + ")"
+    
+    res += "\n"
     print (res)
